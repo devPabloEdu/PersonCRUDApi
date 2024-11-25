@@ -18,7 +18,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
- PersonRoute.PersonRoutes(app);
+app.PersonRoutes();
 
 
 
